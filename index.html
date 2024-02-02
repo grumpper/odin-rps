@@ -2,14 +2,20 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="rps.js" defer></script>
         <title>Rock Paper Scissors</title>
     </head>
     <body>
-        <h1>Rock, Paper, Scissors via JS script</h1>
-        <p>Results are logged and visible in Developer Tools -> Console</p>
-        <button id="rock">Rock &#129704</button>
-        <button id="paper">Paper &#128220</button>
-        <button id="scissors">Scissors &#9986</button>
-        <script src="./rps.js"></script>
+        <div id="title">
+            <h1>Rock, Paper, Scissors via JS script</h1>
+        </div>
+        <div id="buttons">
+            <button id="rock">Rock &#129704</button>
+            <button id="paper">Paper &#128220</button>
+            <button id="scissors">Scissors &#9986</button>
+        </div>
+        <div id="round-result"></div>
+        <div id="game-result"></div>
     </body>
 </html>
